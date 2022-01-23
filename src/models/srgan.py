@@ -3,7 +3,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Conv2D, BatchNormalization, Add, Lambda, LeakyReLU, Flatten, Dense
 from tensorflow.python.keras.layers import PReLU
 
-from utils.normalization import normalize_m11
+from src.utils.normalization import normalize_m11
 
 
 def discriminator_block(x_in, num_filters, strides=1, batchnorm=True, momentum=0.8):

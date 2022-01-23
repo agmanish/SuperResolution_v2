@@ -3,7 +3,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Conv2D, BatchNormalization, Add, Lambda
 from tensorflow.python.keras.layers import PReLU
 
-from utils.normalization import normalize_01, denormalize_m11
+from src.utils.normalization import normalize_01, denormalize_m11
 
 
 upsamples_per_scale = {
